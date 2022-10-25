@@ -1,8 +1,16 @@
 $primary: goldenrod;
-body{
-    section{
-        .top{
-            background-color: $primary;
+
+section{
+    background-color: $primary;
+    padding-bottom: 5px;
+    ul{
+        justify-content: flex-end;
+        li{
+            a{
+                text-decoration: none;
+                color: crimson;
+            }
+            
         }
     }
 }

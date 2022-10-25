@@ -1,5 +1,13 @@
-body section .top {
+section {
   background-color: goldenrod;
+  padding-bottom: 5px;
+}
+section ul {
+  justify-content: flex-end;
+}
+section ul li a {
+  text-decoration: none;
+  color: crimson;
 }
 
 h1 {
@@ -9,7 +17,7 @@ h1 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
   color: purple;
-  text-shadow: 5px 5px crimson;
+  text-shadow: 5px 5px rgba(255, 0, 0, 0.501);
 }
 
 body, html {
