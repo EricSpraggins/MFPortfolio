@@ -4,7 +4,7 @@
   "description": "Hello anyone who's internet search has led them to this beginner's portfolio. I will be utilizing this repository to create a collection of the various techniques that I have learned in my six week course, with the purpose to try and highlight, in small snippets, what the beginning of my journey into the world of coding is going to look like. As I get more of this portfolio accomplished, I will continue to update this readme with to be able to describe, in brief, my thoughts going into each section. Thank you for your interest in perusing my beginner's portfolio, and I hope you enjoy your time here!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass -w scss:css"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 h1{
     position: absolute;
-    top: 5%;
+    top: 7%;
     width: 100%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
@@ -10,16 +10,54 @@ h1{
 body, html{
     height:100%;
 }
-.parallax{
-    background-image: url("../images/Portfolio-Background.png");
+/* 
+.parallax1{
+    background-image: url("../images/Portfolio-Background1.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
+}
+.parallax2{
+    background-image: url("../images/Portfolio-Background2.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.parallax3{
+    background-image: url("../images/Portfolio-Background3.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+.parallax4{
+    background-image: url("../images/Portfolio-Background4.png");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
 }
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax1 {
       background-attachment: scroll;
     }
-}
+    .parallax2 {
+        background-attachment: scroll;
+    }
+    .parallax3 {
+        background-attachment: scroll;
+    }
+    .parallax4 {
+        background-attachment: scroll;
+    }
+} */

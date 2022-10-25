@@ -1,0 +1,45 @@
+.parallax{
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1{
+    @extend .parallax;
+        background-image: url("../images/Portfolio-Background1.png");
+        z-index: 1;
+    
+}
+.parallax2{
+    @extend .parallax;
+        background-image: url("../images/Portfolio-Background2.png");
+        z-index: 2;
+    
+}
+.parallax3{
+    @extend .parallax;
+        background-image: url("../images/Portfolio-Background3.png");
+        z-index: 3;
+    
+}
+.parallax4{
+    @extend .parallax;
+        background-image: url("../images/Portfolio-Background4.png");
+        z-index: 4;
+    
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax1 {
+      background-attachment: scroll;
+    }
+    .parallax2 {
+        background-attachment: scroll;
+    }
+    .parallax3 {
+        background-attachment: scroll;
+    }
+    .parallax4 {
+        background-attachment: scroll;
+    }
+}
