@@ -24,6 +24,17 @@ body, html {
   height: 100%;
 }
 
+div div {
+  background-color: none;
+  position: absolute;
+  top: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+div div p {
+  color: darkslateblue;
+}
+
 .parallax, .parallax4, .parallax3, .parallax2, .parallax1 {
   height: 100%;
   background-attachment: fixed;

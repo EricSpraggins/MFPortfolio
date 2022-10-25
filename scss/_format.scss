@@ -10,3 +10,15 @@ h1{
 body, html{
     height:100%;
 }
+div{
+    div{
+        background-color: none;
+        position: absolute;
+        top: 70%;
+        padding-left: 5%;
+        padding-right: 5%;
+        p{
+            color:darkslateblue;
+        }
+    }
+}
