@@ -95,4 +95,13 @@ div div p {
   background-repeat: no-repeat;
 }
 
+.table {
+  background-image: url("../images/Table.png");
+  height: 100%;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=styles.css.map */
