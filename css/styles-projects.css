@@ -11,3 +11,6 @@ div{
     color: crimson;
     font-size: x-large;
 }
+div a{
+    text-decoration: none;
+}
