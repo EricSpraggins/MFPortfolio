@@ -1,0 +1,35 @@
+body{
+    background-image: url('../images/LuffySmiling.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+.ab{
+    color: crimson;
+    font-family: 'Trispace', sans-serif;
+    background-color: #ec9d1d;
+    position: sticky;
+    top: 0%; 
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 70%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-slack{
+    background: purple;
+    color: white;
+}
